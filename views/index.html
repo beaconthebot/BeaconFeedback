@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<title>Feedback</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scal e=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/watson-react-components.min.css">
+
+<style>
+
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.selected {
+    background-color: #cccc;
+}
+
+#sites label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+#sites label:hover {
+    background-color: #efefef;
+}
+
+#sites label img {
+    padding: 3px;
+    
+}
+
+
+</style>
+
+<body>
+
+<!-- Side Navigation -->
+<!-- Navbar -->
+
+
+<!-- Header -->
+<header class="w3-container w3-padding" id="myHeader" style="background-color:#152935; padding-top:35px" >
+  
+ <div class="w3-bar w3-left-align" style="background-color:#152935;padding-top:5px">
+   
+ 
+  
+ </div>
+
+
+  <!-- Navbar on small screens -->
+
+</div>
+
+</header>
+
+<div class="w3-padding w3-white w3-display-container w3-center">
+  
+  <h1>We value your feedback!</h1>
+  Please let us know about your experience with our application.
+
+
+<br>
+
+
+
+<div class=" w3-center">
+
+
+
+
+<div class="w3-row-padding w3-center">
+
+
+<form action="/input" method="post"  name="form1" class="w3-center">
+<div id="sites">
+    <input type="radio" name="site" id="so" value="green" /><label for="so"><img src="images/green.jpg" alt="Green" /></label>
+    <input type="radio" name="site" id="sf" value="yellow" /><label for="sf"><img src="images/yellow.jpg" alt="Yellow" /></label>
+    <input type="radio" name="site" id="su" value="red" /><label for="su"><img src="images/red.jpg" alt="Red" /></label>
+</div>
+
+
+
+</div>
+
+<input type="text" name="querytext" class="text-input" placeholder="Name(Optional)"  style="/* height: 20%; *//* text-align: left; *//* vertical-align: bottom; */font-size: 150%;border-top-color: white;border-left-color: white;border-right-color: white; border-bottom-color: #5a5a5a;/*  */box-shadow: white;width:30%;margin:auto">
+
+
+<br>
+
+
+<textarea rows="4" cols="50" name="value" class="text-input" placeholder="Comments"  style="/* height: 20%; *//* text-align: left; *//* vertical-align: bottom; */font-size: 150%;border-top-color: white;border-left-color: white;border-right-color: white; border-bottom-color: #5a5a5a;/*  */box-shadow: white;width:30%;margin:auto">
+</textarea>
+
+
+  <br>
+  
+<button class="base--button_submit_watson w3-center" type="submit" style="
+    background-color: #5a5a5a;
+    color: #ffffff;
+    width: 15%;
+    /* height: 10%; */
+    font-size: 150%;
+">Submit</button>
+</form>
+</div>
+</div>
+
+<!-- Footer -->
+
+
+
+</body>
+</html>

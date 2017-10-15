@@ -1,0 +1,26 @@
+{
+ "VCAP_SERVICES": {
+  "cloudantNoSQLDB": [
+   {
+    "credentials": {
+     "host": "bb16ac01-f517-4357-aed5-56b2182521be-bluemix.cloudant.com",
+     "password": "0fb7d7399b04acc57dd0baae13f5120f2ed2b38c57dab16668d8168da9a274b9",
+     "port": 443,
+     "url": "https://bb16ac01-f517-4357-aed5-56b2182521be-bluemix:0fb7d7399b04acc57dd0baae13f5120f2ed2b38c57dab16668d8168da9a274b9@bb16ac01-f517-4357-aed5-56b2182521be-bluemix.cloudant.com",
+     "username": "bb16ac01-f517-4357-aed5-56b2182521be-bluemix"    },
+    "label": "cloudantNoSQLDB",
+    "name": "NodejsSampleapp-cloudantNoSQLDB",
+    "plan": "Lite",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "data_management",
+     "ibm_created",
+     "lite",
+     "ibm_dedicated_public"
+    ],
+    "volume_mounts": []
+   }
+  ]
+ }
+}
